@@ -1,0 +1,23 @@
+.section {
+  background-color: rgb(255, 232, 174);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  padding: 1rem;
+  margin: -1rem -1rem 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.pokemonList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  gap: 1rem;
+}
